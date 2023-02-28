@@ -19,7 +19,7 @@ export default function Home() {
             <div className="mb-7">
                 <div className="text-2xl">About me</div>
                 <div>Hi! My name is Sofie. I'm a Stockholm based junior frontend developer.</div>
-                <div>This website is made with React and Tailwind, a favorite combo of mine lately. Curious about the code? See it here: <a href="www.github.com">www.github.com/sofieohlsson</a></div>
+                <div>This website is made with React and Tailwind, a favorite combo of mine lately. Curious about the code? See it here: <a href="https://github.com/Sofieohlsson/cv" className="text-cyan-600 hover:text-cyan-900">www.github.com/sofieohlsson</a></div>
                 <div>What I lack in experience I make up for in my eagerness to learn and constantly wish to improve and become better.</div>
             </div>
 
