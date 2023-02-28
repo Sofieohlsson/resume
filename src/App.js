@@ -16,10 +16,10 @@ function App() {
     <BrowserRouter> 
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/CV" element={<Projects />} />
-        <Route path="/Goals" element={<Goals />} />
+        <Route path="cv/" element={<Home />} />
+        <Route path="cv/Home" element={<Home />} />
+        <Route path="cv/CV" element={<Projects />} />
+        <Route path="cv/Goals" element={<Goals />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
