@@ -16,11 +16,11 @@ function App() {
     <HashRouter> 
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/CV" element={<Projects />} />
-        <Route path="/Goals" element={<Goals />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/" component={<Home />} />
+        <Route path="/Home" component={<Home />} />
+        <Route path="/CV" component={<Projects />} />
+        <Route path="/Goals" component={<Goals />} />
+        <Route path="*" component={<PageNotFound />} />
       </Routes>
       <Footer />
     </HashRouter>
