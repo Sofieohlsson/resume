@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path={basename}"/Home" element={<Home />} />
+        <Route path={basename + "/Home"} element={<Home />} />
         <Route path="/CV" element={<Projects />} />
         <Route path="/Goals" element={<Goals />} />
         <Route path="*" element={<PageNotFound />} />
