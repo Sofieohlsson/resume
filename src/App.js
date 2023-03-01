@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter ,Routes, Route} from "react-router-dom"; 
+import { BrowserRouter ,Routes, Route} from "react-router-dom"; 
 
 import './App.css';
 
@@ -13,17 +13,17 @@ import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
-<HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="resume/Home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/CV" element={<Projects />} />
         <Route path="/Goals" element={<Goals />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
-      </HashRouter>
+    </BrowserRouter>
   );
 }
 
