@@ -13,7 +13,7 @@ import PageNotFound from './pages/PageNotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,6 +28,3 @@ function App() {
 }
 
 export default App;
-
-
-// basename={process.env.PUBLIC_URL}
