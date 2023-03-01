@@ -16,10 +16,10 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
-        <Route path="/resume" element={<Home />} />
-        <Route path="resume/Home" element={<Home />} />
-        <Route path="resume/CV" element={<Projects />} />
-        <Route path="resume/Goals" element={<Goals />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/CV" element={<Projects />} />
+        <Route path="/Goals" element={<Goals />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
