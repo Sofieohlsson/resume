@@ -30,7 +30,7 @@ export default function Navbar() {
                 <Link to="/"><h1 className="text-xl">SOFIE OHLSSON</h1></Link>
                 {items.map((name) => {
                     return (
-                        <NavItem name={name}/>
+                        <NavItem name={"resume/" + name}/>
                     )
                 })}
             </div>
