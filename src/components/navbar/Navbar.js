@@ -16,7 +16,7 @@ export default function Navbar() {
     const items = ["Home", "CV", "Goals"];
 
     return (
-        <nav className="bg-lightblue border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+        <nav className="bg-lightblue border-gray-200 px-2 sm:px-4 py-2.5">
             <div onClick={handleClick} className="px-2 md:hidden">
                 {( ! open) && (
                     <Bars2Icon className={iconClasses} />
@@ -38,6 +38,3 @@ export default function Navbar() {
         </nav>
     )
 }
-
-
-// "container flex flex-wrap items-center justify-evenly mx-auto"
