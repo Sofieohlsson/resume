@@ -18,7 +18,7 @@ export default function Home() {
 
             <div className="mb-7">
                 <div className="text-2xl">About me</div>
-                <div>Hi! My name is Sofie. I'm a Stockholm based junior frontend developer.</div>
+                <div>Hello! My name is Sofie. I'm a Stockholm based junior frontend developer.</div>
                 <div>This website is made with React and Tailwind, a favorite combo of mine lately. Curious about the code? See it here: <a href="https://github.com/Sofieohlsson/cv" className="text-cyan-600 hover:text-cyan-900">www.github.com/sofieohlsson</a></div>
                 <div>I enjoy learning new things. The bigger the challenge, the greater feeling once you overcome it.</div>
             </div>
